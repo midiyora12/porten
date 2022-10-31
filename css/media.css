@@ -1,0 +1,92 @@
+@media (max-width: 991px) {
+    header .header-nav-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .heade-nav-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12px;
+    }
+    
+    .lois .section-img{
+        padding-top: 90px;
+    }
+    
+    footer input {
+        border: none;
+        background: rgba(255, 255, 255, 0.287);
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        margin-bottom: 24px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    footer a{
+         margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 374px){
+    footer button{
+        margin-bottom: 12px;
+        margin-left: 38px;
+    }
+    
+    footer input {
+        border: none;
+        background: rgba(255, 255, 255, 0.287);
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .header-top .iten-number{
+        flex-direction: column;
+    }
+    
+    .header-top .iten-number .phone{
+        font-size: 8px;
+    }
+    
+    .header-top .iten-number ul a{
+        font-size: 25px;
+    }
+    
+    header .header-content p{
+        font-size: 10px;
+        max-width: 400px;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 400px){
+    
+    .lois .lois-right .lois-text{
+        bottom: 50px;
+    }
+    
+    .lois .lois-right .lois-text h3{
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 350px){
+    header .header-content .text{
+        max-width: 280px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
